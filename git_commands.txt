@@ -1,0 +1,25 @@
+
+git log        							// lists all the commits made
+										// for debugging first find the commit with suspicious commits and find their id
+
+git diff [NUM_OF_OLDER] [NUM_OF_NEWER]  // compares two commits: the last is compared to the first
+										// for example for debugging purposes after you chose the suspicious commit from the log list
+
+git commit  							// create a commit, ie. a snapshot of the current state of the files
+										// you should make commits at reasonable intervals, ie when a task or logically binding group of tasks are finished
+										// always write a reasonable comment to it
+
+git init 								// initializes a git repository, not starting tracking
+
+git status 								// lists the status of the repository you are in
+
+git add [file_name]						// adding a file to the staging area, which is not the repository yeet, but an intermediary in between
+
+git reset [file_name]					// removing file from the staging area
+
+git commit 								// to create a commit
+
+[Esc] :wq								// to Save&Exit from commit text editor
+
+git commit -m "Commit message"			// to create a commit and also attach a created message to it
+
