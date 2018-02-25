@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+it creates the hidden .git directory inside and starting to handle the directory as a repository, but nothing is tracked yet
+it is needed to initiate a repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+its an intermediate between the two. it offers the possibility to have an opportunity before making the repo and to make clearly visible whether a new file occurs in the working direectory
+
