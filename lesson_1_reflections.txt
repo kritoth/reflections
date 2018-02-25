@@ -1,0 +1,4 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By searching thorugh only those lines which was changed/modified between the two versions.
+So it wwasn't necessary to search through all the two files from their beginning to their end.
