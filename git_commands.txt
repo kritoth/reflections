@@ -2,12 +2,22 @@
 git log        							// lists all the commits made
 										// for debugging first find the commit with suspicious commits and find their id
 
+git log --graph --oneline [master] [other-branch]	// lists the commits by visualizing the branches in arguments (without args all branches)
+
 git diff [NUM_OF_OLDER] [NUM_OF_NEWER]  // compares two commits: the last is compared to the first
 										// for example for debugging purposes after you chose the suspicious commit from the log list
+
+git diff								// without argument it shows the difference between Working directory and Staging area
+
+git diff --staged						// with --staged argument it shows the difference between Staging area and last commit
 
 git commit  							// create a commit, ie. a snapshot of the current state of the files
 										// you should make commits at reasonable intervals, ie when a task or logically binding group of tasks are finished
 										// always write a reasonable comment to it
+
+[Esc] :wq								// to Save&Exit from commit text editor
+
+git commit -m "Commit message"			// to create a commit and also attach a created message to it, so there will be no text editor for the message
 
 git init 								// initializes a git repository, not starting tracking
 
@@ -17,9 +27,9 @@ git add [file_name]						// adding a file to the staging area, which is not the 
 
 git reset [file_name]					// removing file from the staging area
 
-git commit 								// to create a commit
+git branch 								// without arguments it lists the branches
+										// it marks the current branch with asterix
 
-[Esc] :wq								// to Save&Exit from commit text editor
+git branch [branch-name]				// it creates a new branch with tha name of the arguments
 
-git commit -m "Commit message"			// to create a commit and also attach a created message to it
-
+git checkout [branch-name]				// it chekcs out to the branch in arguments
