@@ -7,3 +7,15 @@ How is the staging area different from the working directory and the repository?
 
 its an intermediate between the two. it offers the possibility to have an opportunity before making the repo and to make clearly visible whether a new file occurs in the working direectory
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+by using git add I can separate working directory from commit and select the changes into logical packages
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+to experiment with a new feature; or to create a different version (eg easy-mode, language, different UI, etc)
+
+How do the diagrams help you visualize the branch structure?
+
+it helps to see the big picture how the entire project looks like
+
