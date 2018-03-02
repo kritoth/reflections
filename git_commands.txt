@@ -33,3 +33,15 @@ git branch 								// without arguments it lists the branches
 git branch [branch-name]				// it creates a new branch with tha name of the arguments
 
 git checkout [branch-name]				// it chekcs out to the branch in arguments
+
+git remote								// lists the available remote repositories
+
+git remote add [origin] [URL]			// adds the repository to remote, ie github server. The URL can be found on github.
+										// The origin is the standard name if you have only 1 repository
+
+git remote -v 							// shows details about the remote
+
+git push [remote-name] [branch]			// sends (pushes) the current repository's commits reachable from the branch to the remote
+
+git pull [remote-name] [branch]			// downloads (pulls) the current repository's commits reachable from the branch from the remote
+
