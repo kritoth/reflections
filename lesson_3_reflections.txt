@@ -17,3 +17,9 @@ What is the benefit of having a copy of the last known state of the remote store
 to be aware what changes has been made recently and has an up-to-date information about those changes
 this can help to avoid possible unnecesary conflicts
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+by sending files using filesharing or email.
+easier would be to follow along changes and avoid conflicts
+harder would be to have a registered contorl of versions
+
