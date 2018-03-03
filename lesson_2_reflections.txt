@@ -19,3 +19,5 @@ How do the diagrams help you visualize the branch structure?
 
 it helps to see the big picture how the entire project looks like
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+

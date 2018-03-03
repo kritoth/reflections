@@ -23,3 +23,7 @@ by sending files using filesharing or email.
 easier would be to follow along changes and avoid conflicts
 harder would be to have a registered contorl of versions
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+when i collaborate on the project with others
+
