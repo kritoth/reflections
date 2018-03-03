@@ -43,11 +43,14 @@ git remote add [origin] [URL]			// adds the repository to remote, ie github serv
 
 git remote -v 							// shows details about the remote
 
-git push [remote-name] [branch]			// sends (pushes) the current repository's commits reachable from the branch to the remote
+git push [remote_name] [branch]			// sends (pushes) the current repository's commits reachable from the branch to the remote
 
-git pull [remote-name] [branch]			// downloads (pulls) the current repository's commits reachable from the branch from the remote
+git pull [remote_name] [branch]			// downloads (pulls) the current repository's commits reachable from the branch from the remote
 
 git clone [URL]							// clones a remote repo to the local directory which you are in, at the same time it pulls the repo
 
-git fetch								// update local copy of the remote branch while leaving the modified local as it is
+git merge [branch to merge] [branch be merged into]	// merges two branches
+													// eg. collaboration is doing through pull requests, so you always merge the local master into your branch if there is any new update is coming from the remote in order to push only your branch to the remote and let the others see what is your pull request
 
+git fetch								// update local copy of the remote branch while leaving the modified local as it is
+										// this is inside the git pull if conflicts exist, ie it first fetches then merges the fetched into to local master
