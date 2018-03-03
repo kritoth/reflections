@@ -12,3 +12,8 @@ forks exist only on github, they are clones but registered and are available onl
 clones are exact copies of repos either on github or on different local computers
 brnches are new versions of a repo for the sake of new feature or different mode or debug
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+to be aware what changes has been made recently and has an up-to-date information about those changes
+this can help to avoid possible unnecesary conflicts
+
