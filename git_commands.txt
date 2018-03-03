@@ -30,9 +30,11 @@ git reset [file_name]					// removing file from the staging area
 git branch 								// without arguments it lists the branches
 										// it marks the current branch with asterix
 
-git branch [branch-name]				// it creates a new branch with tha name of the arguments
+git branch [new_branch_name]			// it creates a new branch with tha name of the arguments
 
-git checkout [branch-name]				// it chekcs out to the branch in arguments
+git checkout [new_branch_name]			// it chekcs out to the branch in arguments
+
+git checkout -b [new_branch_name]		// it combines the above two, ie creates a new branch and checks out to it
 
 git remote								// lists the available remote repositories
 
@@ -44,4 +46,8 @@ git remote -v 							// shows details about the remote
 git push [remote-name] [branch]			// sends (pushes) the current repository's commits reachable from the branch to the remote
 
 git pull [remote-name] [branch]			// downloads (pulls) the current repository's commits reachable from the branch from the remote
+
+git clone [URL]							// clones a remote repo to the local directory which you are in, at the same time it pulls the repo
+
+git fetch								// update local copy of the remote branch while leaving the modified local as it is
 
