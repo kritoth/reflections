@@ -44,12 +44,12 @@ git checkout -b [new_branch_name]		// it combines the above two, ie creates a ne
 
 git remote								// lists the available remote repositories
 
-git remote add [origin] [URL]			// adds the repository to remote, ie github server. The URL can be found on github.
+git remote add [origin] [URL]			// adds the repository to remote, ie to github server. The URL can be found on github.
 										// The origin is the standard name if you have only 1 repository
 
 git remote -v 							// shows details about the remote
 
-git push [remote_name] [branch]			// sends (pushes) the current repository's commits reachable from the branch to the remote
+git push [remote_name] [branch]			// uploads (pushes) the current repository's commits reachable from the branch to the remote
 
 git pull [remote_name] [branch]			// downloads (pulls) the current repository's commits reachable from the branch from the remote
 
